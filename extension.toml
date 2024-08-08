@@ -1,0 +1,11 @@
+id = "python_refactoring"
+name = "PythonRefactoring"
+description = "Refactoring support for Python."
+version = "0.0.3"
+schema_version = 1
+authors = ["Roy Williams <roy.williams.iii@gmail.com>"]
+repository = "https://github.com/rowillia/zed-python-refactoring"
+
+[language_servers.python_refactoring]
+name = "PythonRefactoring"
+languages = ["Python"]

@@ -1,0 +1,14 @@
+[package]
+name = "zed-python-refactoring"
+version = "0.0.3"
+edition = "2021"
+
+[lib]
+path = "src/python_refactoring.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.0.6"
+
+[workspace]
+members = ["."]
