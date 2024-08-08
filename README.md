@@ -33,7 +33,7 @@ tail -f ~/Library/Logs/Zed/Zed.log
 {
   "languages": {
     "Python": {
-      "language_servers": ["pyright", "python_refactoring"]
+      "language_servers": ["pyright", "python-refactoring"]
     }
   }
 }
