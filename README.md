@@ -9,7 +9,7 @@ You can find the LSP implementation at [cst-lsp](https://github.com/rowillia/cst
 
 ```bash
 pip install cst-lsp
-rustup target add wasm32-wasi
+rustup target add wasm32-wasip1
 ```
 
 To make sure things are installed properly, run `cst_lsp --stdio`.
